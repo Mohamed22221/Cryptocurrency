@@ -1,0 +1,94 @@
+
+
+.servcis-all{
+   background-color: black;
+   padding: 40px 0 80px;
+
+}
+.text-team{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 0;
+}
+.text-team p:first-child{
+   color: #ffb400;
+}
+.text-team h1{
+   color: aliceblue;
+}
+.text-team p:last-child{
+   color: #8a8a8a;
+   text-align: center;
+   width: 70%;
+}
+.person-team{
+   display: flex;
+   justify-content: space-between;
+}
+.preson {
+   position: relative;
+   padding:  40px 0;
+}
+.preson::before{
+   content: '';
+   position: absolute;
+   bottom: 40px;
+   left: 0;
+   width: 100%;
+   height: 40%;
+   background-image: -webkit-linear-gradient(bottom,#1b1a1a,rgba(0,0,0,0));
+}
+.preson:hover::before{
+   transition: 0.5s ease;
+   height: 55%;
+   background-image: -webkit-linear-gradient(bottom,#1b1a1a,rgba(0,0,0,0));
+}
+.text-amg{
+   position: absolute;
+   bottom: 40px ;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.text-amg h3{
+  color: #ffffff;
+}
+.text-amg p{
+   color: #8a8a8a;
+
+}
+@media (max-width:1280px) {
+   
+   .preson img{
+      width: 300px;
+   }
+}
+@media (max-width:997px) {
+   
+   .preson img{
+      width: 230px;
+   }
+   .text-amg h3{
+   font-size: 22px;
+   }
+}
+@media (max-width:780px) {
+   
+   .preson img{
+      width: 150px;
+   }
+   .text-amg h3{
+   font-size: 22px;
+   }
+}
+@media (max-width:478px) {
+   .person-team{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .preson img{
+      width: 100%;
+   }
+}

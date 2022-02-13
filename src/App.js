@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Bitcoin from './components/Bitcoin';
+import Fotter from './components/Fotter';
+import Frontface from './components/Frontface';
+import NavBar from './components/NavBar';
+import Package from './components/Package';
+import SmallNav from './components/SmallNav';
+import MainCripto from './CryptoApi/MainCripto';
+import Servcis from './servcis/Servcis';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<div>
+    <BrowserRouter>
+    
+      <NavBar />
+      
+      <Routes>
+        <Route path="/Cryptocurrency" element={<Frontface  />} />
+         
+       
+     
+      <Route path="/Home" element={<Frontface /> }  />
+      <Route index element={<Frontface />}  />
+      <Route path="/Servce" element={<Servcis />} />
+      <Route path="/Product" />
+      <Route path="/MainCripto" element={<MainCripto/>}  />
+      
+      </Routes>
+    </BrowserRouter>
+    <Package />
+     <Bitcoin />
+    <SmallNav />
+    <Fotter />
+      </div>
+      
+    
   );
 }
 

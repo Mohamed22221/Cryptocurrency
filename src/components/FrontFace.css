@@ -1,0 +1,65 @@
+.front-face{
+    height: 90vh;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+#HomeVideo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+h3{
+    color: white;
+}
+.text-home{
+    
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    width: 50%;
+}
+.text-home img{
+    width: 490px;
+}
+.text-home button{
+    margin: 4px;
+    padding: 4px 12px;
+    transition: 0.4s;
+}
+.text-home button:hover{
+  background-color: #ffb400 ;
+}
+.text-home h3{
+    font-weight: bold;
+    font-size: 28px;
+}
+.text-home p{
+    color: white;
+  
+}
+.blue {
+    color: white;
+    
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+@media  (max-width: 1020px) {
+    .text-home{
+        width: 100%;
+    }
+  }
+  @media  (max-width: 600px) {
+    .text-home img{
+        width: 300px;
+    }
+  }
+  

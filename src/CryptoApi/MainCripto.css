@@ -1,0 +1,91 @@
+/*style component MainCripto*/
+
+.main-crypto{
+    background-color: black;
+    padding: 40px 0;
+}
+/*style component Coins*/
+.header-coins{
+    display: flex;
+    background-color: #000000;
+    box-shadow: 0px 0px 8px 2px rgb(230, 230, 230);
+    border-radius: 4px ;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-coins p{
+    margin: 1.4rem;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+@media  (max-width:770px) {
+    .hide-mopile{
+        display: none;
+    }
+}
+/*style component CoinsItem*/
+.coin-row {
+    display: flex;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 4px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.coin-row:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    
+}
+.coin-row .img-sympol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 30px;
+    padding: 14px;
+    text-align: center;
+}
+.coin-row .img-sympol img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+
+}
+.coin-row .img-sympol p{
+    
+    margin: 0 ;
+    padding: 0;
+    color: white;
+    
+
+}
+
+.coin-row p:nth-child(3){
+    color:#ffb400 ;
+    margin-left: 45px;
+}
+.coin-row p:nth-child(4){
+    color:rgb(141, 0, 0) ;
+    
+}
+.coin-row p {
+    margin: 1.5rem;
+    color: rgba(160, 160, 160, 0.63);
+    font-size: 15px;
+}
+@media  (max-width:880px) {
+    
+    .coin-row p:nth-child(3){
+       
+        margin-left: 0px;
+    }
+    .coin-row .img-sympol{
+       
+        margin: 0 0 0 0px;
+        
+    }
+}

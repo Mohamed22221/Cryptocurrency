@@ -1,0 +1,19 @@
+.main-counter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 70px 0 20px;
+}
+.pranch-counter{
+    padding: 12px;
+}
+.pranch-counter p{
+    padding: 10px 15px;
+    background-color: white;
+    box-shadow:2px 5px 5px rgba(0, 0, 0, 0.301) ;
+}
+.pranch-counter h3{
+    font-size: 19px;
+    color: black;
+}

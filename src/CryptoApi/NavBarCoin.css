@@ -1,0 +1,24 @@
+
+
+.nav-coins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 20px 4px;
+}
+.nav-coins span{
+font-size: 25px;
+font-weight: 900;
+
+}
+
+.nav-coins span:first-child{
+    color: white;
+}
+.gold{
+    color: #ffb400;
+   
+}
+.nav-coins span i{
+    margin-left: 3px;
+}

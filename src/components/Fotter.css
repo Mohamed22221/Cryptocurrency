@@ -1,0 +1,92 @@
+.fotter{
+    padding: 80px 0;
+    background-color: black;
+}
+.aplication {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+}
+.aplication-text {
+    color: white; 
+}
+.aplication-text p {
+    color: rgb(141, 141, 141); 
+}
+
+.aplication-img img{
+    padding: 0 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.aplication-img img:hover{
+    transform: translateY(-9px) ;
+    transition: 0.5s ease ;
+}
+@media (max-width:600px) {
+    .aplication {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     }
+}
+
+.main-fotter{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.list-fotter-one p{
+    width: 70%;
+    color: rgb(141, 141, 141); 
+}
+.list-fotter-one h4{
+    color: white;
+   
+}
+.list-fotter-one i{
+    color: #ffb400;
+   
+}
+.list-fotter h4{
+   color: white;
+ 
+   
+}
+
+.list-fotter ul{
+    list-style: none;
+    
+    padding: 0;
+}
+
+.list-fotter ul li a{
+    color: rgb(141, 141, 141); 
+}
+@media (max-width:420px) {
+    .main-fotter{
+       flex-direction: column;
+    }
+    .list-fotter-one p {
+        width: 200%;
+      
+    }
+     
+}
+@media (max-width:1400px) {
+    .list-fotter-one {
+        width: 40%;
+      
+    }
+}
+.fotter form input{
+background-color: transparent;
+border: 0px solid white;
+padding: 5px 10px;
+}
+.fotter form i{
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    }
+    
