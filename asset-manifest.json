@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Cryptocurrency/static/css/main.dc77cf60.css",
-    "main.js": "/Cryptocurrency/static/js/main.c0157ef4.js",
-    "static/media/video.mp4": "/Cryptocurrency/static/media/video.a2703484bb9eee7d0c2e.mp4",
-    "static/media/hero-img.png": "/Cryptocurrency/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
-    "static/media/chart3.png": "/Cryptocurrency/static/media/chart3.998ed7a2e621684e66b8.png",
-    "static/media/chart4.png": "/Cryptocurrency/static/media/chart4.353509657629f4bbb293.png",
-    "static/media/2.jpg": "/Cryptocurrency/static/media/2.fea112c9feea16c5eda8.jpg",
-    "static/media/4.jpg": "/Cryptocurrency/static/media/4.42b2e8125c878b5bcabd.jpg",
-    "static/media/3.jpg": "/Cryptocurrency/static/media/3.5d6a2b0401f3a1b76c2c.jpg",
-    "static/media/chart2.png": "/Cryptocurrency/static/media/chart2.195e89180005744ec936.png",
-    "index.html": "/Cryptocurrency/index.html",
-    "main.dc77cf60.css.map": "/Cryptocurrency/static/css/main.dc77cf60.css.map",
-    "main.c0157ef4.js.map": "/Cryptocurrency/static/js/main.c0157ef4.js.map"
+    "main.css": "/Home/static/css/main.dc77cf60.css",
+    "main.js": "/Home/static/js/main.b1f5b4ce.js",
+    "static/media/video.mp4": "/Home/static/media/video.a2703484bb9eee7d0c2e.mp4",
+    "static/media/hero-img.png": "/Home/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "static/media/chart3.png": "/Home/static/media/chart3.998ed7a2e621684e66b8.png",
+    "static/media/chart4.png": "/Home/static/media/chart4.353509657629f4bbb293.png",
+    "static/media/2.jpg": "/Home/static/media/2.fea112c9feea16c5eda8.jpg",
+    "static/media/4.jpg": "/Home/static/media/4.42b2e8125c878b5bcabd.jpg",
+    "static/media/3.jpg": "/Home/static/media/3.5d6a2b0401f3a1b76c2c.jpg",
+    "static/media/chart2.png": "/Home/static/media/chart2.195e89180005744ec936.png",
+    "index.html": "/Home/index.html",
+    "main.dc77cf60.css.map": "/Home/static/css/main.dc77cf60.css.map",
+    "main.b1f5b4ce.js.map": "/Home/static/js/main.b1f5b4ce.js.map"
   },
   "entrypoints": [
     "static/css/main.dc77cf60.css",
-    "static/js/main.c0157ef4.js"
+    "static/js/main.b1f5b4ce.js"
   ]
 }
