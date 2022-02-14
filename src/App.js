@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       
       <Routes>
-        <Route path="/Cryptocurrency" element={<Frontface  />} />
+        <Route path="/cryptocurrency" element={<Frontface  />} />
          
        
      
