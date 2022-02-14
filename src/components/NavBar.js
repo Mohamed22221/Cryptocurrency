@@ -16,7 +16,7 @@ function NavBar() {
 
             
             {/*start links navbar*/}
-            <Link to="/Cryptocurrency" className='blue' onClick={Close}>
+            <Link to="/cryptocurrency" className='blue' onClick={Close}>
             Cryptocurrency <i className="fa-brands fa-bitcoin"></i>
             </Link>
                 <ul className={click ? 'nav-menue active' : "nav-menue"}>
